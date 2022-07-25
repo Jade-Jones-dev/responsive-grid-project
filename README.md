@@ -53,6 +53,9 @@ Light beige: #F4ECE6
 Royal blue: #0150FD  
 Black: #000  
 White: #FFF  
+Light lilac: rgb(245, 232, 255);
+try-lilac:rgba(230,250,192,1);
+Lylac: #f5e8ff;  
 
 =====================================
 
@@ -61,7 +64,7 @@ White: #FFF
 
 ![Juice Bar homepage](./designs/Juice%20bar.png)
 
-Live demo here: https://www.wix.com/website-template/view/html/2962  
+Live demo here: https://www.wix.com/websitergb(245, 232, 255)-template/view/html/2962  
 ### Fonts
 **Headings and subheadings:** Questrial - Regular 400  
 https://fonts.google.com/specimen/Questrial  
