@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap');
+footer{
+    font-family: quicksand;
+}
+
+
+footer i{
+    color:black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px;
+    grid: 
+    "item1 item1 item2 item2"
+    "item3 item3 .."
+    "item4 item4 ..";
+}
+
+#item1{
+    grid-area:item1;
+}
+
+#item2
+    {
+    grid-area:item2;
+}
+
+#item3{
+    grid-area:item3;
+}
+
+#item4{
+    grid-area:item4;
+}
