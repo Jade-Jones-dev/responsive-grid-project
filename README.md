@@ -48,14 +48,12 @@ https://fonts.google.com/specimen/Poppins
 https://fonts.google.com/specimen/Quicksand  
 
 ### Colors
-Dark beige: #E6DACD  
-Light beige: #F4ECE6  
-Royal blue: #0150FD  
-Black: #000  
-White: #FFF  
-Light lilac: rgb(245, 232, 255);
-try-lilac:rgba(230,250,192,1);
-Lylac: #f5e8ff;  
+Royal blue:#0150FD; 
+light-blue:#bad0ff
+Black: #000; 
+White: #FFF; 
+purple: #e6dace;
+lilac: #f4ece6;
 
 =====================================
 
