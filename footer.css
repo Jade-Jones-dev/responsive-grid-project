@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap');
+/* footer */
+
 footer{
     font-family: quicksand;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-
+/* icons */
 footer i{
     color:black;
     font-size: 24px;
     padding: 5px;
 }
 
+/* footer grid */
 .footer-container{
     display: grid;
     grid-template-columns: 250px auto;
@@ -22,12 +25,10 @@ footer i{
     "item4 item4";
 }
 
-
 .item1{
     grid-area:item1;
 }
 
-#
 .item2
     {
     grid-area:item2;
