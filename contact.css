@@ -6,6 +6,7 @@ root:{
 --blue:#0150FD;
 --purple: #e6dace;
 --lilac: #f4ece6;
+
 }
 
 /* font-family: 'Poppins', sans-serif; 
@@ -13,10 +14,14 @@ font-family: 'Quicksand', sans-serif;*/
 
 body{
     background-color:#e6dace;
+    padding-left:1.5em;
+    padding-right: 1.5em;
+    font-family: 'Quicksand', sans-seriffont-family: 'Poppins', sans-serif;;
 }
 
 input[type=text] {
     background: transparent;
+    width:96%;
     border: none;
     border-bottom: 2px solid #000000;
 }
@@ -24,6 +29,7 @@ input[type=text] {
 input[type=email] {
     background: transparent;
     border: none;
+    width: 96%;
     border-bottom: 2px solid #000000;
 }
 
@@ -32,14 +38,19 @@ input[type=text]:hover{
 }
 input[type=email]:hover{
     border-bottom: 2px solid #0150FD;
-}input
+}
 
 form{
-   background-color: #fff ;
-   padding-top: 30px;
+   background-color: #fff;
+   padding-top:50px;
+   padding-left:2em;
+   padding-right:2em;
+   font-family: 'Poppins', sans-serif;
     }
 
 input{padding-top: 30px;
 margin-bottom: 10px;}  
 
-
+.blue{
+    color:#0150FD;
+}
