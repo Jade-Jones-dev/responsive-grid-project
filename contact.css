@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap');
+
+root:{
+--main-bg-color: #fff;
+--main-font-color: #000;
+--blue:#0150FD;
+--purple: #e6dace;
+--lilac: #f4ece6;
+}
+
+/* font-family: 'Poppins', sans-serif; 
+font-family: 'Quicksand', sans-serif;*/
+
+body{
+    background-color:#e6dace;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+input[type=text]:hover{
+    border-bottom: 2px solid #0150FD;
+}
+input[type=email]:hover{
+    border-bottom: 2px solid #0150FD;
+}input
+
+form{
+   background-color: #fff ;
+   padding-top: 30px;
+    }
+
+input{padding-top: 30px;
+margin-bottom: 10px;}  
+
+
