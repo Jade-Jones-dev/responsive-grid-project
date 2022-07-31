@@ -32,6 +32,58 @@ h2{
 
 h3{
     font-family: 'Quicksand', sans-serif;
-    list-style: 0.25em;
+    line-height: 0.1em;
     font-size: 1em;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    right:30px;
+}
+
+.bar1
+{
+        width: 17.5px;
+        height: 3px;
+        background-color: #0150FD;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+.bar2
+{
+        width: 35px;
+        height: 3px;
+        background-color: #0150FD;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+
+.bar3 {
+    width: 17.5px;
+    height: 3px;
+    background-color: #0150FD;
+    margin-left: 17.5px;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
