@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap');
+
+root: {
+    --main-bg-color: #fff;
+    --main-font-color: #000;
+    --blue: #0150FD;
+    --purple: #e6dace;
+    --lilac: #f4ece6;
+
+
+
+
+}
+
+/* font-family: 'Poppins', sans-serif; 
+font-family: 'Quicksand', sans-serif;*/
+
+body{
+    background-color: ;
+    margin: 0;
+}
+
+/* background section */
+.backgroundsection{
+    height:300px;
+    background-color: #ffffff;
+}
+
+/* cardsection */
+.cardsection{
+    position: absolute;
+    top: 100px;
+    background-color:#f4ece6;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-left: 2em;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 30px auto 20px auto;
+    display: block;
+
+}
+
+.profile-name{
+    font-family: 'Poppins', sans-serif;
+    line-height:5pt;
+    font-weight:bolder;
+    font-size: 1.5em;
+}
+
+.profile-hr{
+    width: 75px;
+    height: 2px;
+   margin-left: 105px;
+    background-color: #0150FD;
+    margin-bottom: 20px;
+}
+
+.resume-button{
+        background-color: #0150FD;
+        color: #ffffff;
+        border: none;
+        padding: 0.2em 1.5em;
+        border-radius: 2em;
+        font-size: large;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        float:left;
+        margin-left: 10px;
+}
+
+.projects-button {
+   
+    color: black;
+    border: 1px solid black;
+    padding: 0.2em 1.5em;
+    border-radius: 2em;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    margin-right: 10px;
+}
+
+.profile-socials{
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.profile-socials i{
+    color: black;
+    font-size: 20px;
+    margin:5px 10px 5px 10px;
+}
+
+/*  text section */
+
+.textsection{
+    background-color: #e6dace;
+   padding-left:40px;
+    padding-right:40px;
+    padding-bottom: 40px;
+    text-align: left;
+   padding-top:250px;
+}
+
+.textsection h1{
+font-family: 'Poppins',sans-serif;
+font-size: 3em;
+line-height: 10pt;
+}
+
+.textsection h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:100;
+    font-size: 1.25em;
+}
+
+.textsection p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 20pt;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+/* footer */
+
+footer {
+    font-family: quicksand;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ffffff;
+    width:100%;
+    padding-bottom: 60px;
+
+}
+
+/* icons */
+footer i {
+    color: black;
+    font-size: 24px;
+    padding: 5px;
+}
+
+/* footer grid */
+.footer-container {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto;
+    grid:
+        "item1 item2"
+        "item3 ."
+        "item4 item4";
+}
+
+.footer-container h3{
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+    padding-bottom: 20px;
+}
+
+.item4 {
+    grid-area: item4;
+    line-height: 5px;
+}
