@@ -87,6 +87,7 @@ form{
    font-family: 'Poppins', sans-serif;
    margin-left: 1.5em;
    margin-right: 1.5em;
+   margin-bottom: 2em
     }
 
     
@@ -96,49 +97,58 @@ form{
 }
 
 
+
+
 /* footer */
 
-footer{
+footer {
     font-family: quicksand;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 60px;
+
 }
 
 /* icons */
-footer i{
-    color:black;
+footer i {
+    color: black;
     font-size: 24px;
     padding: 5px;
 }
 
 /* footer grid */
-.footer-container{
+.footer-container {
     display: grid;
     grid-template-columns: 250px auto;
     grid-template-rows: auto;
-    grid: 
-    "item1 item2"
-    "item3 ."
-    "item4 item4";
-    background-color: #fff;
-    margin-top: 1em;
-    padding-left: 80px;
-
+    grid:
+        "item1 item2"
+        "item3 ."
+        "item4 item4";
 }
 
-.item1{
-    grid-area:item1;
+.footer-container h3 {
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
 }
 
-.item2
-    {
-    grid-area:item2;
+.item1 {
+    grid-area: item1;
 }
 
-.item3{
-    grid-area:item3;
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
     padding-bottom: 20px;
 }
 
-.item4{
-    grid-area:item4;
+.item4 {
+    grid-area: item4;
     line-height: 5px;
 }
